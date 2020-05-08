@@ -1,0 +1,21 @@
+#Assigning elements to different list
+list1=[1,2,3,4,5]
+list2=['mani','tamil','vel','gokul']
+print(list1)
+print(list2)
+print(list1[1:4])
+print(list2[:2])
+
+
+#Accessing elemnts from tuple
+tuple1=(1,2,3,4)
+print(tuple1[2])
+
+
+
+#deleting different dictionary elements
+ dic={"mani":22,"vel":13,"gokul":23,"tamil":"39"}
+ print("the dic before removal"+ str(dic))
+ print(dic["tamil"])
+ del dic["mani"]
+ print("the dic after removal"+ str(dic))
